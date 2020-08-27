@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Similar Boats</masterLabel>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__AppPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <objects>
+                <object>Boat__c</object>
+            </objects>
+            <property 
+                label="Enter the property you want to compare by" 
+                name="similarBy" 
+                type="String" 
+                datasource="Type, Price, Length" 
+                default="Type"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

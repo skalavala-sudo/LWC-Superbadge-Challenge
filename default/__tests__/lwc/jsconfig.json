@@ -1,0 +1,68 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/unitTest": [
+                "unitTest/unitTest.js"
+            ],
+            "c/boatMap": [
+                "../../lwc/boatMap/boatMap.js"
+            ],
+            "c/boatSearch": [
+                "../../lwc/boatSearch/boatSearch.js"
+            ],
+            "c/boatSearchForm": [
+                "../../lwc/boatSearchForm/boatSearchForm.js"
+            ],
+            "c/boatSearchResults": [
+                "../../lwc/boatSearchResults/boatSearchResults.js"
+            ],
+            "c/boatTile": [
+                "../../lwc/boatTile/boatTile.js"
+            ],
+            "c/boatsNearMe": [
+                "../../lwc/boatsNearMe/boatsNearMe.js"
+            ],
+            "c/contactCreator": [
+                "../../lwc/contactCreator/contactCreator.js"
+            ],
+            "c/contactList": [
+                "../../lwc/contactList/contactList.js"
+            ],
+            "c/helloWorld": [
+                "../../lwc/helloWorld/helloWorld.js"
+            ],
+            "c/ldsUtils": [
+                "../../lwc/ldsUtils/ldsUtils.js"
+            ],
+            "c/boatAddReviewForm": [
+                "../../lwc/boatAddReviewForm/boatAddReviewForm.js"
+            ],
+            "c/boatDetailTabs": [
+                "../../lwc/boatDetailTabs/boatDetailTabs.js"
+            ],
+            "c/boatReviews": [
+                "../../lwc/boatReviews/boatReviews.js"
+            ],
+            "c/similarBoats": [
+                "../../lwc/similarBoats/similarBoats.js"
+            ],
+            "c/fiveStarRating": [
+                "../../lwc/fiveStarRating/fiveStarRating.js"
+            ],
+            "c/botTile": [
+                "../../lwc/botTile/botTile.js"
+            ]
+        },
+        "experimentalDecorators": true
+    },
+    "include": [
+        "**/*",
+        "../../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/unitTest": [
+                "../__tests__/lwc/unitTest/unitTest.js"
+            ],
+            "c/boatMap": [
+                "boatMap/boatMap.js"
+            ],
+            "c/boatSearch": [
+                "boatSearch/boatSearch.js"
+            ],
+            "c/boatSearchForm": [
+                "boatSearchForm/boatSearchForm.js"
+            ],
+            "c/boatSearchResults": [
+                "boatSearchResults/boatSearchResults.js"
+            ],
+            "c/boatTile": [
+                "boatTile/boatTile.js"
+            ],
+            "c/boatsNearMe": [
+                "boatsNearMe/boatsNearMe.js"
+            ],
+            "c/contactCreator": [
+                "contactCreator/contactCreator.js"
+            ],
+            "c/contactList": [
+                "contactList/contactList.js"
+            ],
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/ldsUtils": [
+                "ldsUtils/ldsUtils.js"
+            ],
+            "c/boatAddReviewForm": [
+                "boatAddReviewForm/boatAddReviewForm.js"
+            ],
+            "c/boatDetailTabs": [
+                "boatDetailTabs/boatDetailTabs.js"
+            ],
+            "c/boatReviews": [
+                "boatReviews/boatReviews.js"
+            ],
+            "c/similarBoats": [
+                "similarBoats/similarBoats.js"
+            ],
+            "c/fiveStarRating": [
+                "fiveStarRating/fiveStarRating.js"
+            ],
+            "c/botTile": [
+                "botTile/botTile.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
