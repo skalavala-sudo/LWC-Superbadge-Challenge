@@ -55,7 +55,7 @@ export default class BoatMap extends LightningElement {
   connectedCallback() {
     // recordId is populated on Record Pages, and this component
     // should not update when this component is on a record page.
-    if (this.subscription || thisr5.recordId) {
+    if (this.subscription || this.recordId) {
       return;
     }
     // Subscribe to the message channel to retrieve the recordID and assign it to boatId.
